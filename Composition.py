@@ -10,7 +10,10 @@ import seaborn as sns
 # Load a sample dataset
 
 
-df = sns.load_dataset('tips')
+# df = sns.load_dataset('tips')
+# print(df)
+
+df = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv')
 print(df)
 
 
